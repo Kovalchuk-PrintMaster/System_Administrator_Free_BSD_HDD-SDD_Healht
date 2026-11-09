@@ -1,0 +1,4 @@
+# Preserve the exact snapshot bytes in Git (do not apply CRLF conversion).
+disk_health_audit.sh -text
+# Keep helper shell script executable by /bin/sh on Unix.
+checks/verify_source.sh text eol=lf

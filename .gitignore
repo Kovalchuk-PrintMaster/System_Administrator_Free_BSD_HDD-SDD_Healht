@@ -1,0 +1,19 @@
+# Never commit actual secrets or generated host reports.
+*.env
+!.env.example
+!.env.sample
+config/*.env
+logs/
+runs/
+latest
+*.log
+*.pid
+*.lock
+*.key
+*.pem
+*.p12
+*.pfx
+*.tar.gz
+*.zip
+.DS_Store
+__pycache__/
